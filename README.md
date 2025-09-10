@@ -34,8 +34,6 @@ Stegoseal/
 ⚙️ Installation
 Clone the repository and install dependencies:
 
-bash
-Copy code
 git clone https://github.com/dgchampp/Stegoseal.git
 cd Stegoseal
 pip install torch torchvision numpy pillow
@@ -43,23 +41,18 @@ pip install torch torchvision numpy pillow
 
 🚀 Usage
 Train the Model
-bash
-Copy code
+
 python train.py
 # or
 python train1.py
 With curriculum learning:
 
-bash
-Copy code
+
 python curriculum.py
-Encode a Message
-bash
-Copy code
+```test
+Encode a Message:
 python encode.py --input input.png --message secret.bin --output encoded.png
-Decode a Message
-bash
-Copy code
+Decode a Message:
 python decode.py --input encoded.png --output recovered_message.bin
 Simulate Print–Scan Distortion
 bash
@@ -68,4 +61,4 @@ python simulate_print_scan.py --input encoded.png --output scanned.png
 🖼️ Visual Examples
 Brightness Robustness
 Gaussian Noise Robustness
-Message Comparison
+Message Comparison```
