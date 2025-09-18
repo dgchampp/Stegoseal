@@ -41,23 +41,29 @@ pip install torch torchvision numpy pillow
 
 🚀 Usage
 Train the Model
-
+```bash
 python train.py
+```
 # or
+```bash
 python train1.py
+```
 With curriculum learning:
 
 
 python curriculum.py
-```test
+```bash
 Encode a Message:
 python encode.py --input input.png --message secret.bin --output encoded.png
+```
 Decode a Message:
+```bash
 python decode.py --input encoded.png --output recovered_message.bin
+```
 Simulate Print–Scan Distortion
-bash
-Copy code
+```bash
 python simulate_print_scan.py --input encoded.png --output scanned.png
+```
 🖼️ Visual Examples
 Brightness Robustness
 Gaussian Noise Robustness
