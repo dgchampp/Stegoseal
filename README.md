@@ -61,6 +61,8 @@ Simulate Print–Scan Distortion
 python simulate_print_scan.py --input encoded.png --output scanned.png
 ```
 🖼️ Visual Examples
+```test
+these test images are in the repo : 
 Brightness Robustness
 Gaussian Noise Robustness
 Message Comparison```
