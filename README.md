@@ -48,12 +48,9 @@ python train.py
 ```bash
 python train1.py
 ```
-With curriculum learning:
-
-
-python curriculum.py
-```bash
+With curriculum learning: python curriculum.py
 Encode a Message:
+```bash
 python encode.py --input input.png --message secret.bin --output encoded.png
 ```
 Decode a Message:
