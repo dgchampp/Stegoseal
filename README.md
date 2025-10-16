@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Stegoseal
+#  Stegoseal
 
 **Stegoseal** is a deep learning–based steganography system that hides messages in images in a way that is robust to real-world distortions such as **printing and scanning**.  
 
@@ -8,7 +8,7 @@
 Below is designed and implemented model.
 ![Daigram fo model](https://github.com/dgchampp/Stegoseal/blob/main/model.png)
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Stegoseal/
@@ -29,15 +29,16 @@ Stegoseal/
 ├── original_message_32x32.pt      # Sample test message
 └── README.md
 ```
-✨ Features
-🔒 Neural steganography – hides information inside images.
-🖨️ Printer & scanner-proof – training includes real-world distortion simulation.
-📈 Curriculum learning – gradually increases difficulty for stable training.
-📊 Robustness visualization – test resistance to noise, brightness, etc.
+ Features
+ Neural steganography – hides information inside images.
+ Printer & scanner-proof – training includes real-world distortion simulation.
+ Curriculum learning – gradually increases difficulty for stable training.
+ Robustness visualization – test resistance to noise, brightness, etc.
 
 ⚙️ Installation
+```bash
 Clone the repository and install dependencies:
-
+```
 git clone https://github.com/dgchampp/Stegoseal.git
 cd Stegoseal
 pip install torch torchvision numpy pillow
