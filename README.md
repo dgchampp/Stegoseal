@@ -4,6 +4,10 @@
 
 ---
 
+### Model
+Below is designed and implemented model.
+![Daigram fo model](https://github.com/dgchampp/Stegoseal/blob/main/model.png)
+
 ## 📂 Project Structure
 
 ```text
