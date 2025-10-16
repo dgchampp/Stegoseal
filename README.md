@@ -36,12 +36,13 @@ Stegoseal/
  Robustness visualization – test resistance to noise, brightness, etc.
 
 ⚙️ Installation
+
 ```bash
-Clone the repository and install dependencies:
-```
 git clone https://github.com/dgchampp/Stegoseal.git
 cd Stegoseal
 pip install torch torchvision numpy pillow
+```
+Clone the repository and install dependencies:
 (Consider creating a virtual environment to keep things clean.)
 
 🚀 Usage
